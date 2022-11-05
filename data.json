@@ -1,0 +1,152 @@
+{
+    "intents": [
+      {"tag": "greeting",
+        "patterns": ["hallo","hai","halo","hei","hi","hy","pagi","morning","siang","afternoon","sore","malam","bro","sis","kawan"],
+        "responses":["Hai! Mabot di sini. Mau tau makanan khas daerah mana nih?"]
+      },
+      {"tag": "goodbye",
+        "patterns": ["Dah","Dadah","Bye","Byee","Good bye","Selamat tinggal","Sampai jumpa","Bai","See you"],
+        "responses": ["Bye!","Dadahh!","Good bye!","Dahh, semoga harimu menyenangkan yaa!","Sampai jumpa lagi!","See u! Senang bisa membantu"]
+      },
+      {"tag": "terimakasih",
+        "patterns": ["Thanks","Thank you","Terima kasih","Makasih","Terima kasih banyak"],
+        "responses": ["Dengan senang hati:)"]
+      },
+      {"tag": "khasAceh",
+        "patterns": ["nanggroe aceh darussalam","aceh"],
+        "responses": ["MIE ACEH. Bahan:mie lidi,tomat,bawang merah,bawah putih,kol putih,toge,daun bawang,daun saledri,kecap manis,kecap asin.minyak goreng,kaldu. Cara pembuatannya dengan mengunjungi laman :https://warungacehjame.com/cara-membuat-mie-aceh-dan-bahannya/"]
+      },
+      {"tag": "khasSumut",
+        "patterns": ["sumatera utara","sumut"],
+        "responses": ["PELLENG. Bahan:tepung terigu,tepung kanji,gula,garam,telur,margarin,santan,kunyit bubuk,daun jeruk,daun pandan,batang sereh. Cara pembuatannya dengan mengunjungi laman :https://www.shopback.co.id/katashopback/resep-bika-ambon "]
+      },
+      {"tag": "khasSumbar",
+        "patterns": ["sumatera barat","sumbar"],
+        "responses": ["RENDANG. Bahan:daging sapi,lengkuas,batang serai,daun kunyit,daun jeruk,daun salam,pala bubuk,asam kandis,santan kelapa. Cara pembuatannya dengan mengunjungi laman :https://kumparan.com/Resep-makanan/cara-membuat-rendang-makanan-khas-sumatera-barat-yang-nikmat-dan-gurih-1xHqBZdNrHz/1"]
+      },
+      {"tag": "khasSumsel",
+        "patterns": ["sumatera selatan","sumsel"],
+        "responses": ["EMPEK-EMPEK. Bahan:fillet ikan tenggiri,tepung bakso,tepung terigu,santan,telur,bawang merah,mentimun,soun,tahu cina,gula,merica,garam. Cara pembuatannya dengan mengunjungi laman :http://www.masakandapurku.com/2016/03/resep-membuat-empek-empek-tahu-khas.html"]
+      },
+      {"tag": "khasRiau",
+        "patterns": ["riau"],
+        "responses": ["GULAI BELACAN. Bahan:udang besar,belacan,petai,asam jawa,gula pasir,santan,garam,lada,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://www.menumasakanindonesia.web.id/gulai-belacan-riau/"]
+      },
+      {"tag": "khasKepulauanRiau",
+        "patterns": ["kepulauan riau","kepri"],
+        "responses": ["GONGGONG. Bahan:gonggong,garam,cabe merah,cabe setan,cabe rawit ijo,bawang putih,gula putih,garam,jeruk nipis. Cara pembuatannya dengan mengunjungi laman :https://www.idntimes.com/food/recipe/try-ervina/ini-5-resep-olahan-gonggong-keong-laut-lezat-khas-kepulauan-riau-c1c2 "]
+      },
+      {"tag": "khasJambi",
+        "patterns": ["jambi"],
+        "responses": ["NASI GEMUK.Bahannya: santan,beras,batang serai,daun salam,garam,telut. Cara pembuatannya dengan mengunjungi laman :https://www.kompas.com/food/read/2021/08/08/222100475/resep-nasi-gemuk-khas-jambi-nasi-gurih-untuk-sarapan"]
+      },
+      {"tag": "khasBengkulu",
+        "patterns": ["bengkulu"],
+        "responses": ["PENDAP. Bahannya: ikan gembung,daun bawang,daun saledri,lengkuas,batang serai,asam kendis,daun mangkukan,kelapa parut,santan,garam,merica bubuk,gula pasir,minyak goreng.Cara pembuatannya dengan mengunjungi laman :https://www.kompilasitutorial.com/2020/08/cara-membuat-pendap-yang-lezat-khas.html"]
+      },
+      {"tag": "khasBangkaBelitung",
+        "patterns": ["bangka belitung","bangka"],
+        "responses": ["KERICU. Bahannya: ikan,telur,sagu,garam,ajinamoto,merica. Cara pembuatannya dengan mengunjungi laman :https://delishrecipes.id/resep-cemilan-kericu-ikan-khas-bangka-belitung/"]
+      },
+      {"tag": "khasLampung",
+        "patterns": ["lampung"],
+        "responses": ["SERIUT. Bahannya: ikan nila,bawang bawah,cabai merah,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://lifestyle.sindonews.com/read/342582/185/resep-praktis-bikin-seruit-olahan-ikan-khas-lampung-1613952165"]
+      },
+      {"tag": "khasBanten",
+        "patterns": ["banten"],
+        "responses": ["SATE BANDENG. Bahannya: kepala parut,ikan bandeng,garam,gula merah,asam jawa,telur,santan,daun pisang,batang bambu. Cara pembuatannya dengan mengunjungi laman :https://www.kompas.com/food/read/2021/02/16/100800675/resep-sate-bandeng-khas-banten-kreasi-bandeng-tanpa-tulang"]
+      },
+      {"tag": "khasDkiJakarta",
+        "patterns": ["DKI jakarta","jakarta"],
+        "responses": ["KERAK TELOR. Bahannya: beras ketan putih,air,telur bebek,kelapa serut,sangrai,ebi,bawang merah,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://www.tokopedia.com/blog/resep-cara-membuat-kerak-telor-praktis/"]
+      },
+      {"tag": "khasJawaBarat",
+        "patterns": ["jawa barat","jabar"],
+        "responses": ["TUTUG ONCOM. Bahannya: oncom,nasi putih pulen,bawang merah,kaldu bubuk,garam,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://rasabunda.com/resep/resep-nasi-tutug-oncom/"]
+      },
+      {"tag": "khasJawaTengah",
+        "patterns": ["jawa tengah","jateng"],
+        "responses": ["LUMPIA. Bahannya: rebung muda,bengkoang,fillet ayam,cincang halus,kulit lumpia,saus tiram,kecap manis,telur ayam,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://www.beautynesia.id/wellness/resep-lumpia-semarang-makanan-khas-jawa-tengah-yang-bisa-kamu-coba-di-rumah/b-124355"]
+      },
+      {"tag": "khasJawaTimur",
+        "patterns": ["jawa timur","jatim"],
+        "responses": ["SOTO LAMONGAN. Bahannya: ayam,jeruk nipis,garam,air,daun jeruk,batang serai,jahe,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://tirto.id/resep-soto-ayam-lamongan-ciri-khas-dan-cara-membuatnya-gnYy"]
+      },
+      {"tag": "khasDIYogyakarta",
+        "patterns": ["DIY","yogyakarta","jogjakarta","jogja"],
+        "responses": ["GUDEG. Bahannya: nangka muda,telur ayam,daun salam,daun jeruk,lengkuas,gula jawa,santan sedang,santan kental. Cara pembuatannya dengan mengunjungi laman :https://food.detik.com/sayur/d-5272175/resep-gudeg-jogja-yang-sedap-ngangeni"]
+      },
+      {"tag": "khasBali",
+        "patterns": ["bali"],
+        "responses": ["AYAM BETUTU. Bahannya: ayam kampung,jeruk nipis,daun belimbing wuluh,batang serai,gula merah,daun jeruk,daun pisang,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://food.detik.com/info-kuliner/d-4981033/resep-ayam-betutu-kuliner-khas-bali-yang-kaya-bumbu"]
+      },
+      {"tag": "khasNtb",
+        "patterns": ["nusa tenggara barat","ntb"],
+        "responses": ["AYAM TALIWANG. Bahannya: ayam taliwang,air jeruk limau,garam,santan,gula merah,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://www.tagar.id/resep-istimewa-memasak-ayam-taliwang-lezat-khas-ntb"]
+      },
+      {"tag": "khasNtt",
+        "patterns": ["nusa tenggara timur","ntt"],
+        "responses": ["CATEMAK JAGUNG. Bahannya: biji jagung,kacang tanah,kacang hijau. Cara pembuatannya dengan mengunjungi laman :https://widhiaanugrah.com/resep-catemak-jagung-khas-ntt/"]
+      },
+      {"tag": "khasKalbar",
+        "patterns": ["kalimantan barat","kalbar"],
+        "responses": ["BUBUR PEDAS SAMBAS. Bahannya: daging tetelan,beras,ubi jalar,rebung,kacang panjang,taoge,lemon,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://www.kompas.com/food/read/2021/11/03/080600975/resep-bubur-pedas-kalimantan-bubur-sambas-yang-bergizi-"]
+      },
+      {"tag": "khasKalteng",
+        "patterns": ["kalimantan tengah","kalteng"],
+        "responses": ["JULUH SINGKAH. Bahannya: umbut,kunyit,ketumbar,garam,santan,bawang putih,daun salam,bawang merah. Cara pembuatannya dengan mengunjungi laman :https://correcto.id/beranda/read/26855/juhu-singkah-makanan-khas-suku-dayak-ini-resep-dan-cara-membuatnya"]
+      },
+      {"tag": "khasKalsel",
+        "patterns": ["kalimantan selatan","kalsel"],
+        "responses": ["SOTO BANJAR. Bahannya: ayam kampus,buah pekak,kapulaga,kayu manis,biji pala,susu bubuk,kentang kukus,gula pasir. Cara pembuatannya dengan mengunjungi laman :https://food.detik.com/ayam/d-5372419/resep-soto-banjar-yang-berkuah-gurih-khas-kalimantan-selatan"]
+      },
+      {"tag": "khasKaltim",
+        "patterns": ["kalimantan timur","kaltim"],
+        "responses": ["AYAM CICANE. Bahannya: ayam kampung,minyak goreng,jahe,lengkuas,daun salam,batang serai,gula merah,garam,santan. Cara pembuatannya dengan mengunjungi laman :https://foodandsnack.blogspot.com/2015/04/resep-ayam-cincane-kaltim.html"]
+      },
+      {"tag": "khasKalimantanUtara",
+        "patterns": ["kalimantan utara","kalut"],
+        "responses": ["KEPITING SOKA. Bahannya: kepiting soka,tepung meizena,tepung terigu,telur ayam,air,bawang putih,merica bubuk,garam,gula,minyak goreng. Cara pembuatannya dengan mengunjungi laman :https://anekaresepmasakankhas.blogspot.com/2016/12/resep-bumbu-kepiting-soka-asam-manis.html"]
+      },
+      {"tag": "khasSulsel",
+        "patterns": ["sulawesi selatan","sulsel"],
+        "responses": ["SUP KONRO. Bahannya: iga sapi,daun salam,batang serai,kayu manis,cengkih,ketumbar bubuk,kelapa sangrai,lada,garam. Cara pembuatannya dengan mengunjungi laman :https://food.detik.com/daging/d-4776452/resep-daging--sup-konro"]
+      },
+      {"tag": "khasSulteng",
+        "patterns": ["sulawesi tengah","sulteng"],
+        "responses": ["SUP IKAN JANTUNG PISANG. Bahannya: daging ikan kakap,air,irisan jantung pisang,tomat,garam,jeruk nipis. Cara pembuatannya dengan mengunjungi laman :https://www.katakini.com/artikel/62031/sop-ikan-jantung-pisang-kuliner-khas-palu-sulawesi-tengah-simak-resep-membuatnya/"]
+      },
+      {"tag": "khasSulawesiTenggara",
+        "patterns": ["sulawesi tenggara"],
+        "responses": ["LAPA-LAPA. Bahannya: beras ketan hitam,santan,daun kelapa muda,bawang merah,daun pandan,garam,minyak kelapa. Cara pembuatannya dengan mengunjungi laman :https://zamrispedia.blogspot.com/2019/08/cara-membuat-lapa-lapa-makanan-khas.html"]
+      },
+      {"tag": "khasSulut",
+        "patterns": ["sulawesi utara","sulut"],
+        "responses": ["TILUTUAN. Bahannya: beras pulen,jagung manis muda,ubi jalar kuning,labu kuning,daun kangkung,daun kemangi,batang serai,jahe,air. Cara pembuatannya dengan mengunjungi laman :https://lestariweb.com/Tinutuan.php"]
+      },
+      {"tag": "khasSulbar",
+        "patterns": ["sulawesi barat","sulbar"],
+        "responses": ["BAU PEAPI. Bahannya: ikan cakalang,belimbing minyak kelapa tanak,asam mangga,belanga tanah. Cara pembuatannya dengan mengunjungi laman :https://www.ngetren.co.id/kuliner/resep-bau-peapi-khas-mandar"]
+      },
+      {"tag": "khasGorontalo",
+        "patterns": ["gorontalo"],
+        "responses": ["BINTE BILUHUTA. Bahannya: jagung,kelapa parut,kemangi,udang besar,ikan tongkol,tomat hijau,lada bubuk,bawang putih dan merah. Cara pembuatannya dengan mengunjungi laman :https://www.inews.id/travel/kuliner/resep-binte-biluhuta/2"]
+      },
+      {"tag": "khasMaluku",
+        "patterns": ["maluku"],
+        "responses": ["PAPEDA. Bahannya: tepung sagu,air mendidih. Cara pembuatannya dengan mengunjungi laman :https://www.befren.com/be-dapur/resep-masakan-tradisional-papeda-khas-maluku/"]
+      },
+      {"tag": "khasMalukuUtara",
+        "patterns": ["maluku utara"],
+        "responses": ["GOHU IKAN. Bahannya:ikan tuna,kacang tanah goreng,minyak kelapa. Cara pembuatannya dengan mengunjungi laman :https://dapur-teh-enur.blogspot.com/2015/11/resep-gohu-ikan-khas-maluku-utara.html"]
+      },
+      {"tag": "khasPapuaBarat",
+        "patterns": ["papua barat"],
+        "responses": ["IKAN BAKAR MANOKWARI. Bahannya: ikan tongkol,jeruk nipis,garam,tepung serbaguna,cabai rawit,gula pasir,garam,air,bawang merah. Cara pembuatannya dengan mengunjungi laman :https://www.idntimes.com/food/recipe/melodyna-melody/resep-ikan-bakar-manokwari-c1c2"]
+      },
+      {"tag": "khasPapua",
+        "patterns": ["papua"],
+        "responses": ["PAPEDA. Bahannya: tepung sagu,air,jeruk nipis,garam. Cara pembuatannya dengan mengunjungi laman :https://www.kompas.com/food/read/2021/02/24/210700975/resep-papeda-khas-papua-alternatif-nasi-yang-praktis"]
+      }
+    ]
+  }
